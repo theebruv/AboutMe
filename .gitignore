@@ -1,0 +1,87 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+*.log
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+## Workspace and project files
+!default.xcworkspace
+!default.xcodeproj
+*.xcworkspace
+*.xcodeproj
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+
+## Archives
+*.xcarchive
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.app.dSYM
+*.app
+
+# Symbols
+*.dSYM
+.bcsymbolmap
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+.swiftpm/xcode
+
+# Other
+*.hmap
+*.ipa
+*.rpa
+*.xcent
+*.moved-aside
+
+# iOS specific
+## App Icon
+AppIcon.appiconset/Icon-Small-40@2x.png
+AppIcon.appiconset/Icon-Small-50@2x.png
+AppIcon.appiconset/Icon-Small.png
+AppIcon.appiconset/Icon-Small@2x.png
+AppIcon.appiconset/Icon-Small@3x.png
+
+# macOS specific
+.DS_Store
+
+# Swift Package Manager
+.build/
+
+# Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/*.xcscheme
+
+# AppCode
+.idea
+
+# SwiftUI Previews
+.swiftpm/xcode
